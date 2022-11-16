@@ -1,0 +1,407 @@
+header{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+}
+
+header div{
+    width: 100%;
+    height: auto;
+    background: rgb(239, 231, 217);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:rgb(12, 12, 12);
+    font-weight: 800;
+    text-align: center;
+    font-family: avenir next;
+    font-size: 100%;
+}
+
+div .menu{
+    width: 120%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div .menu a{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
+
+div .menu a:hover{
+    text-shadow: 3px 3px 3px rgb(76, 78, 69);
+}
+
+body{
+    font-family: avenir next;
+}
+
+div .one{
+    width: 80%;
+    height: 600px;
+    margin-left: 5%;
+    color: rgb(239, 231, 217);
+    font-size: 400%;
+    font-weight: 800;
+    margin-top: 120px;
+}
+
+div .one h1{
+    margin-left: 5%;
+    color: rgb(239, 231, 217);
+    font-size: 100%;
+    font-weight: 800;
+    margin-top: 120px;
+    text-shadow: 2px 3px rgb(76, 78, 69);
+}
+
+div .folder{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+
+div .folder a{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-decoration: none;
+    color:rgb(239, 231, 217);
+    font-weight: 800;
+    text-shadow: 2px 3px rgb(76, 78, 69);
+    font-size: 50%;
+    justify-content: center;
+}
+
+div .adelaida{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    margin-top: 5%;
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+}
+
+div .adelaida:hover{
+    border: solid rgb(244, 255, 191);
+    box-shadow: 0 0 34px rgb(221, 217, 164);
+    transform: rotate(-1deg);
+}
+
+div .adelaida img{
+    width: 95%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+div .pho{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    margin-top: 5%;
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+}
+
+div .pho:hover{
+    border: solid rgb(244, 255, 191);
+    box-shadow: 0 0 34px rgb(221, 217, 164);
+    transform: rotate(-1deg);
+}
+
+div .pho img{
+    width: 95%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+
+
+div .money{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    margin-top: 5%;
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+}
+
+div .money:hover{
+    border: solid rgb(244, 255, 191);
+    box-shadow: 0 0 34px rgb(221, 217, 164);
+    transform: rotate(-1deg);
+}
+
+div .money img{
+    width: 95%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+div .plano{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    margin-top: 5%;
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+}
+
+div .plano:hover{
+    border: solid rgb(244, 255, 191);
+    box-shadow: 0 0 34px rgb(221, 217, 164);
+    transform: rotate(-1deg);
+}
+
+div .plano img{
+    width: 95%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+div .gira{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    margin-top: 5%;
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+}
+
+div .gira:hover{
+    border: solid rgb(244, 255, 191);
+    box-shadow: 0 0 34px rgb(221, 217, 164);
+    transform: rotate(-1deg);
+}
+
+div .gira img{
+    width: 95%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+div .two{
+    margin-top: 40px;
+}
+
+div .five{
+    margin-top: 40px;
+}
+
+div .for{
+    margin-top: 40px;
+}
+
+div .charls{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    margin-top: 5%;
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+}
+
+div .charls:hover{
+    border: solid rgb(244, 255, 191);
+    box-shadow: 0 0 34px rgb(221, 217, 164);
+    transform: rotate(-1deg);
+}
+
+div .charls img{
+    width: 95%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+div .mundo{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    margin-top: 5%;
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+}
+
+div .mundo:hover{
+    border: solid rgb(244, 255, 191);
+    box-shadow: 0 0 34px rgb(221, 217, 164);
+    transform: rotate(-1deg);
+}
+
+div .mundo img{
+    width: 95%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+div .autoretrato{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    margin-top: 5%;
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+}
+
+div .autoretrato:hover{
+    border: solid rgb(244, 255, 191);
+    box-shadow: 0 0 34px rgb(221, 217, 164);
+    transform: rotate(-1deg);
+}
+
+div .autoretrato img{
+    width: 95%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+div .thre{
+    margin-top: 40px;
+}
+
+div .sistema{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    margin-top: 5%;
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+}
+
+div .sistema:hover{
+    border: solid rgb(244, 255, 191);
+    box-shadow: 0 0 34px rgb(221, 217, 164);
+    transform: rotate(-1deg);
+}
+
+div .sistema img{
+    width: 95%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+div .container-3{
+    width: 100%;
+    height:100px;
+    background: rgb(239, 231, 217);
+    margin-top: 150px;
+    font-family: avenir next;
+    color:rgb(12, 12, 12);
+    font-weight: 800;
+    font-size: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div .final{
+    width: 35%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+div .rrss{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#in{
+    width: 30px;
+    height: auto;
+}
+
+#yout{
+    width: 33px;
+    height: auto;
+}
+
+#inst{
+    width: 30px;
+    height: auto;
+}
+
+#twit{
+    width: 30px;
+    height: auto;
+}

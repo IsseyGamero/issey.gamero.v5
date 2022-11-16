@@ -1,0 +1,153 @@
+header{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+}
+
+header div{
+    width: 100%;
+    height: auto;
+    background: rgb(239, 231, 217);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:rgb(12, 12, 12);
+    font-weight: 800;
+    text-align: center;
+    font-family: avenir next;
+    font-size: 100%;
+}
+
+div .menu{
+    width: 120%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div .menu a{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
+
+div .menu a:hover{
+    text-shadow: 3px 3px 3px rgb(76, 78, 69);
+}
+
+body{
+    font-family: avenir next;
+}
+
+#adelaida{
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+div .one{
+    width: 95%;
+    height: auto;
+    margin-top: 120px;
+    color: rgb(239, 231, 217);
+    font-size: 200%;
+    font-weight: 1000;
+    text-shadow: 3px 5px rgb(76, 78, 69)
+}
+
+div .video{
+    width: 80%;
+    height: 750px;
+}
+
+div .credits{
+    width: 80%;
+    height: auto;
+    color: rgb(239, 231, 217);
+    box-shadow: 0 0 14px rgb(141, 139, 112);
+    border-radius: 4px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+div .productoras{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    align-items: flex-end;
+}
+
+#rodartin{
+    width: 25%;
+    height: auto;
+}
+
+#pos{
+    width: 45%;
+    height: 60%;
+}
+
+
+div .cort{
+    width: 100%;
+    height: auto;
+    background: rgb(239, 231, 217);
+    margin-top: 100px;
+}
+
+div .final{
+    width: 100%;
+    height: auto;
+    background: rgb(239, 231, 217);
+    font-family: avenir next;
+    color:rgb(12, 12, 12);
+    padding: 10px;
+    font-weight: 800;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div .final{
+    width: 35%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+div .rrss{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#in{
+    width: 30px;
+    height: auto;
+}
+
+#yout{
+    width: 33px;
+    height: auto;
+}
+
+#inst{
+    width: 30px;
+    height: auto;
+}
+
+#twit{
+    width: 30px;
+    height: auto;
+}
